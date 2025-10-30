@@ -1,0 +1,32 @@
+    1  man ls
+    2  man
+    3  help
+    4  help dir
+    5  clear
+    6  dir
+    7  git confiig --global user.name "Iryna Gavriluk"
+    8  gitconfig --global user.name "Iryna Gavriluk"
+    9  cd git
+   10  clear
+   11  git
+   12  git config --global user.name "Iryna Gavriluk"
+   13  git config --global user.email getnet0701@gmail.com
+   14  git clone https://github.com/Assassins77100/HW_10.git
+   15  cd HW_10
+   16  touch text_ignore.txt
+   17  git status
+   18  git add .gitignore
+   19  git commit -m "Ignore text_ignore.txt file"
+   20  touch text_test.txt
+   21  git add text_test.txt
+   22  git commit -m "Add text_test.txt file"
+   23  git branch develop
+   24  git chekout develop
+   25  touch top_test.txt
+   26  echo "Just a small change" >>top_test.txt
+   27  git add top_test.txt
+   28  git commit -m "Add top_test.txt with text"
+   29  git checkout main
+   30  git merge develop
+   31  git log --oneline
+   32  history > command_list.csv
